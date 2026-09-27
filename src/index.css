@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  /* Deep, warm charcoal for the main background */
+  --color-luxury-black: #1E1C1B; 
+  
+  /* The Charcoal from the logo text for cards and modals */
+  --color-luxury-charcoal: #2C2A29; 
+  
+  /* The exact Slate Teal from the script for buttons and accents */
+  --color-luxury-sapphire: #38707A; 
+  
+  /* The Khaki/Cream from the logo background for main text */
+  --color-luxury-white: #E4D9C5; 
+  
+  /* A muted khaki for secondary text and borders */
+  --color-luxury-steel: #A8A092; 
+}
+
+body {
+  background-color: var(--color-luxury-black);
+  color: var(--color-luxury-gray);
+  -webkit-font-smoothing: antialiased;
+}
